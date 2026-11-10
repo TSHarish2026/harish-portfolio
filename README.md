@@ -24,6 +24,10 @@ npm run build
 
 The deployable files are written to `dist/harish-portfolio/browser/`.
 
+## Live site
+
+GitHub Actions builds and deploys the site to GitHub Pages after each push to `main`. The project-site base URL is `/harish-portfolio/`. Once the first workflow completes, the site is available at `https://tsharish2026.github.io/harish-portfolio/`.
+
 ## Deploy
 
 Build the site and publish the contents of `dist/harish-portfolio/browser/` to any static host such as Azure Static Web Apps, Netlify, Vercel, GitHub Pages, or an employer-approved web host. Configure the host to serve `index.html` for unknown paths if client-side routes are added later. This portfolio currently uses one page and does not require route fallback configuration.
